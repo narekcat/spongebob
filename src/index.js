@@ -3,5 +3,4 @@
 * @param {Number} a First number
 * @param {Number} b Second number
 */
-const spongebob = (a, b) => '😹'.repeat(a + b);
-export default spongebob;
+export default spongebob = (a, b) => '😹'.repeat(a + b);

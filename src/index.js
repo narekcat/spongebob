@@ -3,10 +3,4 @@
 * @param {Number} a First number
 * @param {Number} b Second number
 */
-module.exports = function (a, b) {
-  return Array.apply(null, Array(a + b)).map(
-    function () {
-      return '😹';
-    }
-  ).join('');
-};
+export const spongebob = (a, b) => '😹'.repeat(a + b);
